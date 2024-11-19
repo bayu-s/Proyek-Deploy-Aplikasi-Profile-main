@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #0077B5;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 10px 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Container and Sections */
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.my-story,
+.personal-info {
+    margin-bottom: 20px;
+}
+
+.story-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.story-header .story-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Personal Information */
+.personal-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Social Icons */
+.social-icons {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-icons .find-me {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.social-icons .icons a {
+    margin: 0 10px;
+}
+
+.social-icons .icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons .icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #0077B5;
+    color: white;
+    margin-top: 20px;
+}
